@@ -10,6 +10,13 @@
  *
  */
 
+ // var redis = require('redis');
+ // var url = require('url');
+ // var redisCloudUrl = process.env.REDISCLOUD_URL;
+ // var redisCloudUrlParsed;
+ // if(typeof redisCloudUrl !== 'undefined'){
+ // 	redisCloudUrlParsed = url.parse(redisCloudUrl);
+ // }
 module.exports = {
 
   /***************************************************************************
@@ -17,9 +24,9 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  // models: {
-  //   connection: 'someMysqlServer'
-  // },
+  models: {
+    connection: 'herokuPostgres'
+  },
 
   /***************************************************************************
    * Set the port in the production environment to 80                        *

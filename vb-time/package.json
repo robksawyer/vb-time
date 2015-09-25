@@ -1,12 +1,14 @@
 {
   "name": "vb-time",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "ejs": "~0.8.4",
     "grunt": "0.4.2",
+    "bower": "^1.4.1",
+    "change-case": "^2.3.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-coffee": "~0.10.1",
     "grunt-contrib-concat": "~0.3.0",
@@ -17,6 +19,28 @@
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sails-linker": "~0.9.5",
+    "grunt-remove": "^0.1.0",
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.0",
+    "newrelic": "^1.21.1",
+    "node-uuid": "^1.4.3",
+    "nodemailer": "^1.4.0",
+    "nodemon": "^1.5.1",
+    "passport": "^0.2.2",
+    "passport-cas": "^0.1.0",
+    "passport-facebook": "^2.0.0",
+    "passport-github": "^0.1.5",
+    "passport-google-oauth": "^0.2.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "path": "^0.11.14",
+    "sails-postgresql": "^0.10.16",
+    "url": "^0.10.3",
+    "util": "^0.10.3",
+    "validator": "^3.40.0",
+    "winston": "^1.0.1",
+    "xlsx": "^0.8.0",
     "grunt-sync": "~0.0.4",
     "include-all": "~0.1.3",
     "rc": "~0.5.0",
@@ -30,8 +54,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/robsawyer/vb-time.git"
+    "url": "git://github.com/robksawyer/vb-time.git"
   },
-  "author": "robsawyer",
-  "license": ""
+  "author": "robksawyer",
+  "license": "All Rights Reserved."
 }
