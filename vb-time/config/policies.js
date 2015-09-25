@@ -26,9 +26,14 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  '*': [ 'passport']
+  //See http://stackoverflow.com/questions/27168229/passport-authentication-not-working-in-sails-js-application/27182970#27182970 for more.
+  // '*': ['passport', 'sessionAuth'],
+  //
+  // 'auth': {
+  //   '*': ['passport']
+  // }
 
-  // '*': true,
+   '*': true,
 
   /***************************************************************************
   *                                                                          *
