@@ -1,24 +1,59 @@
-<div class="container-fluid">
-
-  <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+<div class="container">
+  <div class="header">
+    <h1 class="lead">Welcome to Voicebox Time Tracker</h1>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  <div class="row-fluid">
+    <form>
+      <div class="form-group">
+        <label for="tipRecipient">Tip Recipient</label>
+        <input type="text" class="form-control" id="tipRecipient" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label for="ccTips">CC Tips</label>
+        <input type="text" class="form-control" id="ccTips" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="totalCash">Total Cash</label>
+        <input type="text" class="form-control" id="totalCash" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="totalCashBundled">Bundled</label>
+        <input type="text" class="form-control" id="totalCashBundled" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="totalCashInHands">In Hands</label>
+        <input type="text" class="form-control" id="totalCashInHands" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="totalOwed">Total Owed</label>
+        <input type="text" class="form-control" id="totalOwed" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="totalOwedBundled">Bundled</label>
+        <input type="text" class="form-control" id="totalOwedBundled" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        <select type="text" class="form-control" id="location" placeholder="">
+          <option value="Portland-NW">Portland (NW)</option>
+          <option value="Portland-SE">Portland (SW)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="autoGrat">Auto Grat</label>
+        <input type="text" class="form-control" id="autoGrat" placeholder="">
+      </div>
+      <%# <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+      </div>%>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
   </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
 </div>

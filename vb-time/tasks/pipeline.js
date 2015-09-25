@@ -26,9 +26,13 @@ var jsFilesToInject = [
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
 
+  //Load D3 before NV.D3
+	'js/d3.js',
+	'js/build/nv.d3.js',
+  
   //handsontable dependencies (They don't load correctly in order. So it needs to be forced.)
 	'js/moment.js',
-  
+
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
