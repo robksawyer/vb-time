@@ -1,0 +1,28 @@
+{
+  "name": "vb-time",
+  "version": "0.0.1",
+  "authors": [
+    "Rob Sawyer <robksawyer@gmail.com>"
+  ],
+  "description": "Voicebox Time Tracker",
+  "main": "app.js",
+  "license": "All Rights Reserved.",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "bootstrap": "~3.0.3",
+    "fontawesome": "~4.3.0",
+    "jquery": "~2.1.4",
+    "lodash": "~3.9.3",
+    "moment": "~2.10.6",
+    "nvd3": "~1.8.1",
+    "rsvp": "~3.0.18",
+    "toastr": "~2.1.1"
+  }
+}
