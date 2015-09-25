@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "bcrypt": "^0.8.5",
+    "bcryptjs": "^2.3.0",
     "bower": "^1.4.1",
     "change-case": "^2.3.0",
     "ejs": "~0.8.4",
